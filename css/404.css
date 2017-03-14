@@ -1,0 +1,156 @@
+@font-face
+{
+  font-family: 'Esphimere';
+  src: url('../src/police/Esphimere.otf');
+}
+
+@keyframes troll
+{
+  0% {color: #C80000;border: 1px solid #C80000;}
+  33% {color: #0000C8;border: 1px solid #0000C8;}
+  66% {color: #00C800;border: 1px solid #00C800;}
+  99% {color: #C80000;border: 1px solid #C80000;}
+}
+
+#body
+{
+  background-color: #201407;
+}
+
+header
+{
+  position: relative;
+  background-image: url('../src/img/head.jpg');
+  height: 300px;
+  width: 100%;
+}
+
+#logo
+{
+  position: absolute;
+  background-image: url('../src/img/platypulse.png');
+  background-repeat: no-repeat;
+  margin-left: 9%;
+  margin-top: 10px;
+  height: 257px;
+  width: 561px;
+}
+
+menu
+{
+  font-size: 33px;
+  padding-left: 10%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #FAEECD;
+}
+
+menu li
+{
+  display: inline-block;
+  list-style: none;
+  font-family: 'Esphimere';
+  text-transform: uppercase;
+  padding-right: 50px;
+  text-shadow: 1px 1px 3px #555555;
+}
+
+menu a, #ext_links a
+{
+  color: #FFFFFF;
+}
+
+menu a:hover, #ext_links a:hover
+{
+  transition: all 0.5s;
+  color: #f1983b;
+  text-decoration: none;
+}
+
+menu a:link, #ext_links a:link
+{
+  text-decoration: none;
+}
+
+#ext_links
+{
+  font-size: 18px;
+  padding-left: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #705232;
+  box-shadow: 5px 5px 10px #111111;
+}
+
+#ext_links li
+{
+  display: inline-block;
+  list-style: none;
+  font-family: 'Esphimere';
+  padding-right: 50px;
+  text-shadow: 1px 1px 1px #555555;
+}
+
+.error
+{
+  margin-left: 3%;
+  margin-right: 3%;
+  font-family: 'Esphimere';
+  text-align: center;
+  margin: auto;
+}
+
+.error h1
+{
+  padding-top: 10px;
+  font-size: 60px;
+  color: #88BAE8;
+}
+
+.error p
+{
+  font-size: 30px;
+  color: #DDDDDD;
+}
+
+.error #troll a
+{
+  color: #C80000;
+  font-size: 100px;
+  animation-name: troll;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+footer
+{
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 5px;
+  color: #FFFFFF;
+  font-family: 'Esphimere';
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+footer a
+{
+  color: #61BFBE;
+}
+
+footer a:hover
+{
+  transition: all 0.2s;
+  color: #479594;
+  text-decoration: none;
+}
+
+footer a:link
+{
+  text-decoration: none;
+}
